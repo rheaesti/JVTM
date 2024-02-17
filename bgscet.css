@@ -1,0 +1,180 @@
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/1105022019587801160/1207036015488008282/Black_Minimalist_Broken_Glass_Motivational_Quote_Desktop_Wallpaper.png?ex=65de2ee3&is=65cbb9e3&hm=634a83f7c83be9ab078df2095d1c910bbcc41333204dbf222426c6e95a7231c6&);
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:auto;
+    max-height: 100%;
+ }
+
+.top p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.whatsapp
+{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+.qr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 200px;
+}
+
+.buttons {
+    text-align: right;
+    width: 17%;
+    color: white;
+}
+
+h1{
+        text-align: center;
+        font-size: 70px;
+        color: white;
+        height:100px;
+        font-family: 'Times New Roman', Times, serif;
+  }
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    height:100px;
+}
+
+h1{
+   margin-bottom: auto;
+}
+
+p{
+    margin-top: auto;
+}
+
+a{
+    color: white;
+}
+
+a:active
+{
+    color: white;
+}
+
+a:hover
+{
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eeeeea;
+}
+
+.wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card {
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    color: #b0b0ba;
+    padding-top: 5px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    width: 600px;
+}
+
+input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+    background-image: url('https://cdn.discordapp.com/attachments/1105022019587801160/1207030726084661428/Black_White_Modern_Concert_Music_Banner_Landscape_2.png?ex=65de29f6&is=65cbb4f6&hm=268d4ec5ed46d1e7d64369b991af9fd49a99e5cf1eed232781b3068a62ddd2bd&');
+}
+.card[for="c2"] {
+    background-image: url('https://cdn.discordapp.com/attachments/1105022019587801160/1207028252988936202/Black_White_Modern_Concert_Music_Banner_Landscape.png?ex=65de27a9&is=65cbb2a9&hm=88a70822d80ef3d5c8e48270d85b1fe755caa529f4c349708d0462a69d686907&');
+}
+.card[for="c3"] {
+    background-image: url('https://cdn.discordapp.com/attachments/1105022019587801160/1207034660664639518/Black_and_White_Simple_Coming_Soon_A4_Landscape_1.png?ex=65de2da0&is=65cbb8a0&hm=f65e76e69b8f3becbb10f93e73d642c2fcff5245245351de49f4bbe7dc61001e&');
+}
+.card[for="c4"] {
+    background-image: url('https://cdn.discordapp.com/attachments/1105022019587801160/1207036393595994183/Black_Geometric_Designer_Portfolio_Cover_Page_1.png?ex=65de2f3d&is=65cbba3d&hm=e9a452ecd7d073a0ba55d34399e4f8c2a8c7df6d315367c8884985685878b8aa&');
+}
